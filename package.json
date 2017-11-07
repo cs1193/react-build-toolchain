@@ -5,6 +5,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "generate-sassdoc": "",
+    "generate-jsdoc": "",
+    "generate-docs": "",
     "preversion": "git checkout master",
     "postversion": "git push origin master && git push origin master --tags"
   },
