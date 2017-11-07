@@ -1,0 +1,22 @@
+{
+  "name": "react.build.toolchain",
+  "version": "1.0.0",
+  "description": "React Build Toolchain - tools for building, packaging, and deploying with continuous integration.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "git checkout master",
+    "postversion": "git push origin master && git push origin master --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs1193/react.build.toolchain.git"
+  },
+  "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> <chandresh.rm@gmail.com> (http://chandreshrm.name)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/cs1193/react.build.toolchain/issues"
+  },
+  "homepage": "https://github.com/cs1193/react.build.toolchain#readme"
+}
