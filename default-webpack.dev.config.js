@@ -1,3 +1,7 @@
+const entry = require('./webpack/entry');
+const WebpackOutputFile = require('./webpack/output');
+const resolve = require('./webpack/resolve');
+
 /**
  * A function that returns a default webpack development configuration for local development.
  * @param       {Object} webpack           A reference to the webpack module.
@@ -9,7 +13,9 @@ function WebpackDevelopmentConfiguration (webpack, HtmlWebpackPlugin, ExtractTex
     cache: true,
     watch: true,
     context: __dirname,
-    entry: entry
+    entry: entry,
+    output: WebpackOutputFile('DEV'),
+    resolve: resolve
   };
 }
 
