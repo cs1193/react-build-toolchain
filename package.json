@@ -1,5 +1,5 @@
 {
-  "name": "react-buildtools",
+  "name": "@cs1193/react-build-toolchain",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/cs1193/react.build.toolchain.git"
   },
   "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> (http://chandreshrm.name)",
-  "license": "MIT",
+  "license": "",
   "bugs": {
     "url": "https://github.com/cs1193/react.build.toolchain/issues"
   },
