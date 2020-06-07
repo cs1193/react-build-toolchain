@@ -17,8 +17,6 @@
     "url": "https://github.com/cs1193/react.build.toolchain/issues"
   },
   "homepage": "https://github.com/cs1193/react.build.toolchain#readme",
-  "dependencies": {
-    "lodash": "^4.17.15"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
