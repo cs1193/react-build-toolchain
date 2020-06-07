@@ -13,7 +13,7 @@
     "url": "git+https://github.com/cs1193/react.build.toolchain.git"
   },
   "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> (http://chandreshrm.name)",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cs1193/react.build.toolchain/issues"
   },
