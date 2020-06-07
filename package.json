@@ -1,22 +1,7 @@
 {
-  "name": "@cs1193/react-build-toolchain",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "preversion": "git checkout master",
-    "postversion": "git push origin master && git push origin master --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cs1193/react.build.toolchain.git"
-  },
-  "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> (http://chandreshrm.name)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cs1193/react.build.toolchain/issues"
-  },
-  "homepage": "https://github.com/cs1193/react.build.toolchain#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "name": "@cs1193/riposte",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
 }

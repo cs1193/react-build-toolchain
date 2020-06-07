@@ -1,0 +1,22 @@
+{
+  "name": "@cs1193/riposte-buildtools",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "git checkout master",
+    "postversion": "git push origin master && git push origin master --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> (http://chandreshrm.name)",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {},
+  "devDependencies": {}
+}
