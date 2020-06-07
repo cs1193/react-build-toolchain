@@ -1,13 +1,10 @@
 {
-  "name": "react.build.toolchain",
-  "version": "1.0.0",
-  "description": "React Build Toolchain - tools for building, packaging, and deploying with continuous integration.",
+  "name": "react-buildtools",
+  "version": "0.0.0",
+  "description": "",
   "main": "index.js",
   "private": true,
   "scripts": {
-    "generate-sassdoc": "",
-    "generate-jsdoc": "",
-    "generate-docs": "",
     "preversion": "git checkout master",
     "postversion": "git push origin master && git push origin master --tags"
   },
@@ -15,19 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/cs1193/react.build.toolchain.git"
   },
-  "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> <chandresh.rm@gmail.com> (http://chandreshrm.name)",
-  "license": "UNLICENSED",
+  "author": "Chandresh Rajkumar Manonmani <cs1193@gmail.com> (http://chandreshrm.name)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cs1193/react.build.toolchain/issues"
   },
   "homepage": "https://github.com/cs1193/react.build.toolchain#readme",
   "dependencies": {
-    "jsdoc": "3.5.5",
-    "lodash": "4.17.4",
-    "sassdoc": "2.4.0"
+    "lodash": "^4.17.15"
   },
-  "devDependencies": {
-    "babel-core": "6.26.0",
-    "babel-preset-es2017": "6.24.1"
-  }
+  "devDependencies": {}
 }
