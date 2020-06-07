@@ -1,3 +1,2 @@
-# React Build Toolchain
+# @cs1193/react-build-toolchain
 
------------------------
