@@ -1,7 +1,11 @@
 {
   "name": "@cs1193/riposte",
   "private": true,
+  "scripts": {
+    "dep-graph": "./node_modules/.bin/lerna-dependency-graph"
+  },
   "devDependencies": {
-    "lerna": "^3.22.0"
+    "lerna": "^3.22.0",
+    "lerna-dependency-graph": "^1.0.2"
   }
 }
