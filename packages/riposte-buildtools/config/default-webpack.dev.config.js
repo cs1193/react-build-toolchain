@@ -1,7 +1,7 @@
 module.exports = (webpack, HtmlWebpackPlugin, MiniCssExtractPlugin) => {
   const configuration = {
     entry: {
-      app: ['./src/index.js']
+      app: ['./src/index.ts']
     },
     devtool: 'source-map',
     resolveExtensions: {
